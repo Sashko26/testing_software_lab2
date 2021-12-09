@@ -1,0 +1,42 @@
+
+        <div class="main">
+          
+            <div class="flex-container">
+                 
+            </div>
+           
+            {{#if obj.isBuffer}}
+                <button id="getMessageBuffer">
+                   Get
+                </button>
+                <form method="POST" action="push_buffer">
+                     <input id="input_pushMessageBuffer" type="text">
+                    <button type="submit" id="button_pushMessageBuffer">Push</button>
+                </form>
+
+                <form method="POST" action="get_buffer">
+                     <input disabled id="input_getMessageBuffer" type="text">
+                    <button type="submit"  id="button_getMessageBuffer"></button>
+                </form>
+                
+                    
+               
+            {{/if}}
+
+            {{#if isBinary}}
+            
+            {{/if}}
+
+            {{#if isLogText}}
+            
+            {{/if}}
+            
+
+            
+        </div>
+        
+                
+
+          
+
+

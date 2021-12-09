@@ -1,0 +1,26 @@
+{
+  "name": "testing_software_lab2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sashko26/testing_software_lab2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sashko26/testing_software_lab2/issues"
+  },
+  "homepage": "https://github.com/Sashko26/testing_software_lab2#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^27.4.3"
+  }
+}

@@ -2,6 +2,7 @@ const constants =  require('./constant_types');
 const { File_system_entity } =  require("./Entity");
 const  {getRandomInt,getRandomString}  = require('./helper')
 class BinaryFile extends File_system_entity{
+    static  MAX_BUF_FILE_SIZE = 100; 
     constructor(name,isRoot,type,parent,root, data){
         super(name,isRoot,type,parent,root);
          this._data = data;
